@@ -243,154 +243,78 @@ We strongly believe in creating opportunities, and in the near future, we plan t
         </div>
     </section>
 
-    <!-- Projects Section -->
-    <section id="projects">
-        <h2 class="section-title">Our Projects</h2>
-        <p class="section-subtitle">Showcasing our expertise across different domains</p>
-        
-        <div class="project-filters">
-            <button class="filter-btn active" onclick="filterProjects('all')">All</button>
-            <button class="filter-btn" onclick="filterProjects('web')">Web Apps</button>
-            <button class="filter-btn" onclick="filterProjects('mobile')">Mobile Apps</button>
-            <button class="filter-btn" onclick="filterProjects('database')">Database/ERP</button>
-            <button class="filter-btn" onclick="filterProjects('hardware')">Hardware</button>
-        </div>
-        
-        <div class="projects-grid" id="projectsGrid">
-            <!-- Web Projects -->
-            <div class="project-card" data-category="web">
-                <div class="project-image"></div>
-                <div class="project-content">
-                    <h3>E-Commerce Platform</h3>
-                    <p>Full-stack e-commerce solution with React frontend, Node.js backend, and secure payment integration.</p>
-                    <div class="project-tags">
-                        <span class="domain-tag">React</span>
-                        <span class="domain-tag">Node.js</span>
-                        <span class="domain-tag">MongoDB</span>
-                    </div>
-                </div>
-            </div>
-            
-            <div class="project-card" data-category="web">
-                <div class="project-image"></div>
-                <div class="project-content">
-                    <h3>Corporate Website</h3>
-                    <p>Professional corporate website with CMS integration and responsive design for multi-device compatibility.</p>
-                    <div class="project-tags">
-                        <span class="domain-tag">Vue.js</span>
-                        <span class="domain-tag">PHP</span>
-                        <span class="domain-tag">MySQL</span>
-                    </div>
-                </div>
-            </div>
-            
-            <div class="project-card" data-category="web">
-                <div class="project-image"></div>
-                <div class="project-content">
-                    <h3>Learning Management System</h3>
-                    <p>Complete LMS with course management, student tracking, and interactive learning modules.</p>
-                    <div class="project-tags">
-                        <span class="domain-tag">Angular</span>
-                        <span class="domain-tag">Django</span>
-                        <span class="domain-tag">PostgreSQL</span>
-                    </div>
-                </div>
-            </div>
-            
-            <!-- Mobile Projects -->
-            <div class="project-card" data-category="mobile">
-                <div class="project-image">
-                    <div style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); font-size: 3rem;">📱</div>
-                </div>
-                <div class="project-content">
-                    <h3>Food Delivery App</h3>
-                    <p>Cross-platform mobile app with real-time tracking, payment integration, and user-friendly interface.</p>
-                    <div class="project-tags">
-                        <span class="domain-tag">React Native</span>
-                        <span class="domain-tag">Firebase</span>
-                        <span class="domain-tag">Stripe API</span>
-                    </div>
-                </div>
-            </div>
-            
-            <div class="project-card" data-category="mobile">
-                <div class="project-image">
-                    <div style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); font-size: 3rem;">📱</div>
-                </div>
-                <div class="project-content">
-                    <h3>Fitness Tracker</h3>
-                    <p>Health and fitness tracking app with workout plans, progress monitoring, and social features.</p>
-                    <div class="project-tags">
-                        <span class="domain-tag">Flutter</span>
-                        <span class="domain-tag">Node.js</span>
-                        <span class="domain-tag">MongoDB</span>
-                    </div>
-                </div>
-            </div>
-            
-            <!-- Database/ERP Projects -->
-            <div class="project-card" data-category="database">
-                <div class="project-image">
-                    <div style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); font-size: 3rem;">🗄️</div>
-                </div>
-                <div class="project-content">
-                    <h3>Inventory Management System</h3>
-                    <p>Complete ERP solution for inventory tracking, supplier management, and automated reporting.</p>
-                    <div class="project-tags">
-                        <span class="domain-tag">Python</span>
-                        <span class="domain-tag">PostgreSQL</span>
-                        <span class="domain-tag">Redis</span>
-                    </div>
-                </div>
-            </div>
-            
-            <div class="project-card" data-category="database">
-                <div class="project-image">
-                    <div style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); font-size: 3rem;">⚙️</div>
-                </div>
-                <div class="project-content">
-                    <h3>HR Management System</h3>
-                    <p>Comprehensive HR solution with employee management, payroll processing, and performance tracking.</p>
-                    <div class="project-tags">
-                        <span class="domain-tag">Java Spring</span>
-                        <span class="domain-tag">MySQL</span>
-                        <span class="domain-tag">Docker</span>
-                    </div>
-                </div>
-            </div>
-            
-            <!-- Hardware Projects -->
-            <div class="project-card" data-category="hardware">
-                <div class="project-image">
-                    <div style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); font-size: 3rem;">🔧</div>
-                </div>
-                <div class="project-content">
-                    <h3>IoT Monitoring System</h3>
-                    <p>Industrial IoT solution with sensor integration, real-time monitoring, and predictive analytics.</p>
-                    <div class="project-tags">
-                        <span class="domain-tag">Raspberry Pi</span>
-                        <span class="domain-tag">Python</span>
-                        <span class="domain-tag">InfluxDB</span>
-                    </div>
-                </div>
-            </div>
-            
-            <div class="project-card" data-category="hardware">
-                <div class="project-image">
-                    <div style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); font-size: 3rem;">🤖</div>
-                </div>
-                <div class="project-content">
-                    <h3>Automated Control System</h3>
-                    <p>Smart automation system for manufacturing with Arduino integration and web-based control panel.</p>
-                    <div class="project-tags">
-                        <span class="domain-tag">Arduino</span>
-                        <span class="domain-tag">C++</span>
-                        <span class="domain-tag">WebSocket</span>
-                    </div>
-                </div>
+<!-- Projects Section -->
+<section id="projects">
+    <h2 class="section-title">Our Projects</h2>
+    <p class="section-subtitle">Showcasing our expertise across different domains</p>
+    
+    <div class="projects-grid" id="projectsGrid">
+
+        <div class="project-card">
+            <div class="project-image"></div>
+            <div class="project-content">
+                <h3>Unity Foundation</h3>
+                <p>This project was created by our team for <strong>Unity Foundation NGO</strong> with the vision of helping society through digital means. The platform highlights the foundation’s activities, social initiatives, and community support programs, making it easier for people to connect and contribute towards social welfare.</p>
+                <a href="https://unity-ashen.vercel.app/" target="_blank" class="view-btn">View Project</a>
             </div>
         </div>
-    </section>
+
+        <div class="project-card">
+            <div class="project-image"></div>
+            <div class="project-content">
+                <h3>Ayritech</h3>
+                <p>Developed during our internship, this project represents a <strong>corporate-style web platform</strong> for Ayritech. It was built to showcase their services and solutions professionally with a clean, responsive, and modern design approach, ensuring user engagement and brand visibility.</p>
+                <a href="https://exquisite-dragon-3cb5a9.netlify.app" target="_blank" class="view-btn">View Project</a>
+            </div>
+        </div>
+
+        <div class="project-card">
+            <div class="project-image"></div>
+            <div class="project-content">
+                <h3>MES - Manjunath Engineering Services</h3>
+                <p>Created for a reputed <strong>engineering company</strong>, this was one of the finest and most impactful projects by Team Krewlancer. The platform presents engineering solutions, services, and company achievements, helping them establish a strong online presence and client trust.</p>
+                <a href="https://subtle-empanada-ec40f4.netlify.app/" target="_blank" class="view-btn">View Project</a>
+            </div>
+        </div>
+
+        <div class="project-card">
+            <div class="project-image"></div>
+            <div class="project-content">
+                <h3>Luxe</h3>
+                <p><strong>Luxe</strong> is our very first <strong>e-commerce product</strong>, currently under development. While APIs and backend integrations are still in progress, Luxe is designed to grow into a large-scale product with modern shopping experiences, premium UI, and scalability for future expansion.</p>
+                <a href="https://luxe-xi-one.vercel.app/" target="_blank" class="view-btn">View Project</a>
+            </div>
+        </div>
+
+        <div class="project-card">
+            <div class="project-image"></div>
+            <div class="project-content">
+                <h3>Techshala 2023</h3>
+                <p>This project was developed during a <strong>hackathon</strong> by our team members. It served as an informative platform for the Techshala committee, providing structured details, event updates, and resources for participants and learners in a simple and engaging manner.</p>
+                <a href="https://techshala-clone.netlify.app/" target="_blank" class="view-btn">View Project</a>
+            </div>
+        </div>
+
+        <div class="project-card">
+            <div class="project-image"></div>
+            <div class="project-content">
+                <h3>Indian Culture Heritage</h3>
+                <p>Designed as a <strong>digital guide for tourists</strong>, this project showcases the eternal beauty, traditions, and diversity of Indian culture. A key feature includes an <strong>AI-powered chatbot</strong> to help visitors with instant guidance and cultural knowledge, making exploration easier and interactive.</p>
+                <a href="https://eternal-india.netlify.app/" target="_blank" class="view-btn">View Project</a>
+            </div>
+        </div>
+
+        <div class="project-card">
+            <div class="project-image"></div>
+            <div class="project-content">
+                <h3>Case Vault</h3>
+                <p><strong>Case Vault</strong> is our second official <strong>product in development</strong>. It is an innovative e-commerce application focused on mobile accessories and gadgets. Currently under construction, this platform is planned to be launched soon in the market with seamless UI/UX and strong backend integration.</p>
+                <a href="https://case-iota-sable.vercel.app/" target="_blank" class="view-btn">View Project</a>
+            </div>
+        </div>
+
+    </div>
+</section>
 
     <!-- Feedback Section -->
     <section id="feedback">
@@ -400,9 +324,8 @@ We strongly believe in creating opportunities, and in the near future, we plan t
         <div class="feedback-grid">
             <div class="feedback-card">
                 <div class="stars">⭐⭐⭐⭐⭐</div>
-                <h4>Outstanding Performance</h4>
-                <p>"The team delivered our project ahead of schedule with exceptional quality. Their attention to detail and technical expertise is unmatched."</p>
-                <strong>- Michael Brown, CEO TechStart</strong>
+                <h4>Manjunath Engineering Services</h4>
+                <p>"Krewlancer delivered an exceptional platform for our engineering services. The website is intuitive, professional, and has greatly improved our online presence"</p>
                 <div style="margin-top: 1rem; color: var(--text-secondary);">
                     <small>Project: E-commerce Platform | Rating: 5/5</small>
                 </div>
@@ -410,9 +333,8 @@ We strongly believe in creating opportunities, and in the near future, we plan t
             
             <div class="feedback-card">
                 <div class="stars">⭐⭐⭐⭐⭐</div>
-                <h4>Excellent Communication</h4>
-                <p>"Communication was flawless throughout the project. They kept us updated at every step and incorporated our feedback seamlessly."</p>
-                <strong>- Jennifer Davis, CTO InnovateLabs</strong>
+                <h4>Ayritech</h4>
+                <p>"During our internship project, Krewlancer showcased great professionalism and technical skills. The website reflects Ayritech’s services perfectly and exceeded expectations."</p>
                 <div style="margin-top: 1rem; color: var(--text-secondary);">
                     <small>Project: Mobile App Development | Rating: 5/5</small>
                 </div>
@@ -420,9 +342,8 @@ We strongly believe in creating opportunities, and in the near future, we plan t
             
             <div class="feedback-card">
                 <div class="stars">⭐⭐⭐⭐⭐</div>
-                <h4>Technical Excellence</h4>
-                <p>"Their database optimization work improved our system performance by 300%. Truly impressive technical skills!"</p>
-                <strong>- Robert Wilson, IT Director DataCorp</strong>
+                <h4>Techshala</h4>
+                <p>"The team did a fantastic job creating an informative and visually appealing website for our hackathon. It made it easy for participants to get all the necessary information quickly"</p>
                 <div style="margin-top: 1rem; color: var(--text-secondary);">
                     <small>Project: Database Optimization | Rating: 5/5</small>
                 </div>
@@ -432,9 +353,8 @@ We strongly believe in creating opportunities, and in the near future, we plan t
                 <div class="stars">⭐⭐⭐⭐⭐</div>
                 <h4>Innovative Solutions</h4>
                 <p>"They provided creative solutions we hadn't even considered. The final product exceeded our expectations in every way."</p>
-                <strong>- Amanda Garcia, Founder StartupHub</strong>
+                
                 <div style="margin-top: 1rem; color: var(--text-secondary);">
-                    <small>Project: Custom ERP System | Rating: 5/5</small>
                 </div>
             </div>
             
@@ -442,9 +362,9 @@ We strongly believe in creating opportunities, and in the near future, we plan t
                 <div class="stars">⭐⭐⭐⭐⭐</div>
                 <h4>Post-Launch Support</h4>
                 <p>"Even after project completion, they provided excellent support and maintenance. True partnership approach!"</p>
-                <strong>- Daniel Lee, Operations Manager LogiTech</strong>
+                
                 <div style="margin-top: 1rem; color: var(--text-secondary);">
-                    <small>Project: Web Application | Rating: 5/5</small>
+                    
                 </div>
             </div>
             
@@ -452,9 +372,9 @@ We strongly believe in creating opportunities, and in the near future, we plan t
                 <div class="stars">⭐⭐⭐⭐⭐</div>
                 <h4>Value for Money</h4>
                 <p>"Great value for the quality of work delivered. Professional, efficient, and cost-effective solution."</p>
-                <strong>- Lisa Thompson, CFO FinanceFlow</strong>
+              
                 <div style="margin-top: 1rem; color: var(--text-secondary);">
-                    <small>Project: Financial Management System | Rating: 5/5</small>
+                    
                 </div>
             </div>
         </div>

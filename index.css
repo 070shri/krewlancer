@@ -516,6 +516,24 @@ section {
     padding: 1.5rem;
 }
 
+.view-btn {
+    display: inline-block;
+    margin-top: 1rem;
+    padding: 10px 20px;
+    border-radius: 25px;
+    background: var(--gradient-primary);
+    color: #fff;
+    font-weight: 500;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+.view-btn:hover {
+    background: var(--primary-color);
+    transform: scale(1.05);
+}
+
+
 /* Feedback Section */
 .feedback-grid {
     display: grid;
